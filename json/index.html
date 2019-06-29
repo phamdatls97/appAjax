@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    var student;
+
+    student = {};
+    student.name = "Nguyễn Văn An";
+    student.age = 21;
+    student.location = "Hà Nội";
+    console.log(student);
+    /**
+     * Chuyển đổi object trong js thành chuỗi JSON
+     * JSON.stringify()
+     */
+    var student_json = JSON.stringify(student);
+    console.log(student_json)
+    /**
+     * Chuỗi json thu đc
+     * "name":"Nguyễn Văn An","age":21,"location":"Hà Nội"
+     */
+</script>
+
+</body>
+</html>
